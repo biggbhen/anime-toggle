@@ -1,24 +1,25 @@
-const asta=document.getElementsByClassName('asta')
-asta.onclick = astaAnime
-
-const eren=document.getElementsByClassName('erenYegger')
-eren.onclick = erenYeggerAnime;
-document.getElementsByClassName('shinra').onclick = shinraAnime
-document.getElementsByClassName('deku').onclick = dekuAnime
-document.getElementsByClassName('tanjiro').onclick = tanjiroAnime
-document.getElementsByClassName('Naruto').onclick = NarutoAnime
-
-function astaAnime(){
-document.getElementsByClassName('displayOne').style.backgroundImage = 'url("./images/asta_black_clover.jpg")'
-
-document.getElementsByClassName('displayOne').style.backgroundRepeat=noRepeat;
-
-}
+document.querySelector('.asta').addEventListener('click' , asta)
 
 
-function erenYeggerAnime(){
-// function goes here
-}
+// const eren=document.getElementsByClassName('erenYegger')
+// eren.onclick = erenYeggerAnime;
+// document.getElementsByClassName('shinra').onclick = shinraAnime
+// document.getElementsByClassName('deku').onclick = dekuAnime
+// document.getElementsByClassName('tanjiro').onclick = tanjiroAnime
+// document.getElementsByClassName('Naruto').onclick = NarutoAnime
+
+function asta(){
+document.querySelector('.displayOne').style.backgroundImage = 'url("images/black cloverGif.gif")'
+
+document.querySelector('.displayOne').style.backgroundRepeat='no-Repeat'
+document.querySelector('.displayOne').style.backgroundSize='cover'
+ }
+ 
+
+
+// function erenYeggerAnime(){
+// // function goes here
+// }
 
 
 function shinraAnime(){
